@@ -25,3 +25,7 @@ This is because the behaviour of `complex_function` is non-deterministic (depend
 
 Such non-deterministic behaviour is not uncommon in real-world software system.
 How can we test such non-deterministic behaviour? Think about this. (No need to implement anything)
+
+## Explaination about task 2
+
+I compare all the possible/intended outputs of complex_function(). And using assertTrue() instead of assertEqual().
